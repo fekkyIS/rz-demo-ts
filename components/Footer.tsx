@@ -99,7 +99,7 @@ export default function Footer() {
                     </Box>
                 </Grid>
                 <Grid item xs={12} pl={3} pr={3} pt={0} pb={0}>
-                    <Typography justifyContent="center" sx={{ fontSize: "14px", pt: 1, pb: 1 }}>© 2022 Raza Communications™</Typography>
+                    <Typography justifyContent="center" sx={{ fontSize: "14px", pt: 1, pb: 1 }}>&copy; 2022 Raza Communications</Typography>
                 </Grid>
 
 
@@ -107,7 +107,7 @@ export default function Footer() {
 
 
             <Grid item xs={12} className={styles.footerLinks} >
-                <Box style={{ textAlign: 'center' }} pl={3} pr={3} pt={0} pb={0} ><span><a href="/">Plan Terms &amp; Conditions</a></span><span>Privacy Policy</span><span>Return Policy</span><span>Acceptable Use Policy</span><span>Accessibility</span><span>Site Terms of Use</span><span>911 &amp; E911 Disclosure</span><span>Prepaid MTS Surcharge</span><span>Sitemap</span></Box>
+                <Box style={{ textAlign: 'center' }} pl={3} pr={3} pt={0} pb={0} ><span><a href="#">Plan Terms &amp; Conditions</a></span><span>Privacy Policy</span><span>Return Policy</span><span>Acceptable Use Policy</span><span>Accessibility</span><span>Site Terms of Use</span><span>911 &amp; E911 Disclosure</span><span>Prepaid MTS Surcharge</span><span>Sitemap</span></Box>
             </Grid>
         </Grid>
 
