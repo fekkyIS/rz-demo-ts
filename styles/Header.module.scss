@@ -1,0 +1,9 @@
+@use './variable' as *;
+.header{
+    background-color: $b-color;
+}
+.offers{
+    background-color: #FDD44B;
+    flex:1;
+}
+
